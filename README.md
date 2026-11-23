@@ -21,22 +21,18 @@ Uma Pokédex de desktop feita em **Python** com interface gráfica em **Tkinter*
 
 ## Estrutura do projeto
 
-```
-pokedextk/
-├── principal.py                
-├── testar_repositorio.py       
-├── config/
-│   ├── BD.py                   
-│   └── pokedex.db              
-├── models/
-│   └── pokemon.py              
-├── interfaces/
-│   └── pokemon_interface.py    
-├── repositorio/
-│   └── pokerepositorio.py       
-└── controles/
-    └── pokecontrole.py          
-```
+## 📁 Estrutura do projeto
+
+| Caminho | Descrição |
+|---------|-----------|
+| [`principal.py`](./principal.py) | Interface gráfica (Tkinter) e ponto de entrada do programa |
+| [`testar_repositorio.py`](./testar_repositorio.py) | Script de teste do CRUD |
+| [`config/BD.py`](./config/BD.py) | Conexão com o banco SQLite |
+| [`config/pokedex.db`](./config/pokedex.db) | Banco de dados |
+| [`models/pokemon.py`](./models/pokemon.py) | Classe `Pokemon` (entidade) |
+| [`interfaces/pokemon_interface.py`](./interfaces/pokemon_interface.py) | Interface abstrata com os métodos exigidos do repositório |
+| [`repositorio/pokerepositorio.py`](./repositorio/pokerepositorio.py) | Operações no banco (cadastrar, listar, buscar, editar e excluir) |
+| [`controles/pokecontrole.py`](./controles/pokecontrole.py) | Liga a interface gráfica ao repositório |
 
 ### Arquitetura
 
