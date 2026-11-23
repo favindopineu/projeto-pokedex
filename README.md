@@ -111,6 +111,7 @@ Feito por:
 **Erick Lavado** - [GitHub](https://github.com/Lavado-dev) <br>
 **Lucas Barreto** - [GitHub](https://github.com/LucasB-Soares) <br>
 **Felipe Xavier** - [GitHub](https://github.com/felipexsouza71) <br>
+**Fabio Manfio** - [GitHub](https://github.com/Manfio19)
 
 
 
