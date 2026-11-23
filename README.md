@@ -1,8 +1,8 @@
-# 🔴 PokédexTK
+# PokédexTK
 
 Uma Pokédex de desktop feita em **Python** com interface gráfica em **Tkinter** e banco de dados **SQLite**. Permite cadastrar, consultar, editar e excluir Pokémon, e busca automaticamente a imagem de cada um na [PokéAPI](https://pokeapi.co/).
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 - **Cadastrar** Pokémon com número da Pokédex, nome, tipos, altura e peso
 - **Imagem automática**: o sprite do Pokémon é baixado da PokéAPI a partir do número informado e salvo no banco
@@ -11,7 +11,7 @@ Uma Pokédex de desktop feita em **Python** com interface gráfica em **Tkinter*
 - **Editar** e **excluir** registros (com confirmação antes de excluir)
 - **Validação** de campos: nome e Tipo 1 obrigatórios, aceita vírgula ou ponto em altura/peso
 
-## 🛠️ Tecnologias
+## Tecnologias
 
 - Python 3.12+
 - [Tkinter](https://docs.python.org/3/library/tkinter.html) (interface gráfica, já incluso no Python)
@@ -19,23 +19,23 @@ Uma Pokédex de desktop feita em **Python** com interface gráfica em **Tkinter*
 - [Pillow](https://pypi.org/project/pillow/) (manipulação e exibição das imagens)
 - [PokéAPI](https://pokeapi.co/) (origem dos sprites)
 
-## 📁 Estrutura do projeto
+## Estrutura do projeto
 
 ```
 pokedextk/
-├── principal.py                 # Interface gráfica (Tkinter) e ponto de entrada
-├── testar_repositorio.py        # Script de teste do CRUD
+├── principal.py                
+├── testar_repositorio.py       
 ├── config/
-│   ├── BD.py                    # Conexão com o banco SQLite
-│   └── pokedex.db               # Banco de dados
+│   ├── BD.py                   
+│   └── pokedex.db              
 ├── models/
-│   └── pokemon.py               # Classe Pokemon (entidade)
+│   └── pokemon.py              
 ├── interfaces/
-│   └── pokemon_interface.py     # Interface abstrata com os métodos do repositório
+│   └── pokemon_interface.py    
 ├── repositorio/
-│   └── pokerepositorio.py       # Operações no banco (CRUD)
+│   └── pokerepositorio.py       
 └── controles/
-    └── pokecontrole.py          # Liga a interface gráfica ao repositório
+    └── pokecontrole.py          
 ```
 
 ### Arquitetura
@@ -57,7 +57,7 @@ Banco de dados SQLite (config/BD.py)
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/SEU-USUARIO/pokedextk.git
+git clone https://github.com/favindopineu/pokedextk.git
 cd pokedextk
 ```
 
@@ -89,14 +89,14 @@ python principal.py
 
 > É necessário ter **conexão com a internet** para cadastrar Pokémon, pois a imagem é buscada na PokéAPI.
 
-## 🎮 Como usar
+## Como usar
 
 1. Na tela inicial, clique em **Cadastrar Pokémon**.
 2. Preencha os dados (o número da Pokédex é usado para buscar a imagem) e clique em **Salvar Pokémon**.
 3. Clique em **Consultar Pokémon** para ver a lista. Selecione um item para ver a imagem.
 4. Use **Editar Pokémon** ou **Excluir Pokémon** com um item selecionado.
 
-## 🧪 Testes
+## Testes
 
 O script `testar_repositorio.py` executa um teste simples do CRUD (cadastrar, buscar, editar, listar e excluir) usando um Pokémon temporário, que é removido ao final:
 
@@ -104,6 +104,7 @@ O script `testar_repositorio.py` executa um teste simples do CRUD (cadastrar, bu
 python testar_repositorio.py
 ```
 
-## 👤 Autor
+## Autores
 
-Feito por **SEU NOME** — [GitHub](https://github.com/SEU-USUARIO)
+Feito por **Carlos Eduardo Dias Sana** — [GitHub](https://github.com/favindopineu)
+
