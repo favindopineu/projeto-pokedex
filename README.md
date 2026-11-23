@@ -52,7 +52,7 @@ Repositório (PokeRepositorio  ←  implementa PokemonInterface)
 Banco de dados SQLite (config/BD.py)
 ```
 
-## 🚀 Como executar
+## Como executar
 
 ### 1. Clone o repositório
 
@@ -106,5 +106,12 @@ python testar_repositorio.py
 
 ## Autores
 
-Feito por **Carlos Eduardo Dias Sana** — [GitHub](https://github.com/favindopineu)
+Feito por:
+**Carlos Eduardoa** - [GitHub](https://github.com/favindopineu)
+**Erick Lavado** - [GitHub](https://github.com/Lavado-dev)
+**Lucas Barreto** - [GitHub](https://github.com/LucasB-Soares)
+**Felipe Xavier** - [GitHub](https://github.com/felipexsouza71)
+
+
+
 
