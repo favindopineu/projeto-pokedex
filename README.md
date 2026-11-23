@@ -107,10 +107,10 @@ python testar_repositorio.py
 ## Autores
 
 Feito por:
-**Carlos Eduardoa** - [GitHub](https://github.com/favindopineu)
-**Erick Lavado** - [GitHub](https://github.com/Lavado-dev)
-**Lucas Barreto** - [GitHub](https://github.com/LucasB-Soares)
-**Felipe Xavier** - [GitHub](https://github.com/felipexsouza71)
+**Carlos Eduardoa** - [GitHub](https://github.com/favindopineu) <br>
+**Erick Lavado** - [GitHub](https://github.com/Lavado-dev) <br>
+**Lucas Barreto** - [GitHub](https://github.com/LucasB-Soares) <br>
+**Felipe Xavier** - [GitHub](https://github.com/felipexsouza71) <br>
 
 
 
