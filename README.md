@@ -21,8 +21,6 @@ Uma Pokédex de desktop feita em **Python** com interface gráfica em **Tkinter*
 
 ## Estrutura do projeto
 
-## 📁 Estrutura do projeto
-
 | Caminho | Descrição |
 |---------|-----------|
 | [`principal.py`](./principal.py) | Interface gráfica (Tkinter) e ponto de entrada do programa |
